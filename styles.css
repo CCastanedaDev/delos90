@@ -16,3 +16,8 @@
 .cart-trigger{display:inline-flex;align-items:center;justify-content:space-between;gap:12px;white-space:nowrap;font-size:11px;font-weight:700}
 .cart-trigger .cart-count{margin-left:0!important;flex:none}
 @media(max-width:400px){.header{padding-inline:4%}.brand{gap:8px;font-size:25px}.brand img{width:41px;height:41px}.cart-trigger{min-width:104px}}
+@media (min-width:1400px){
+  .hero-copy h1{font-size:clamp(86px,5.5vw,108px);margin-top:clamp(40px,6vh,65px)}
+  .hero-copy>p{font-size:18px;max-width:420px}
+  .hero-copy .button{font-size:12px;padding:20px 24px}
+}
